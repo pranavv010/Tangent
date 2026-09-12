@@ -24,26 +24,6 @@ The system is divided into two primary components:
 - **Technology Stack**: Python, Flask, and the NVIDIA API.
 - **Functionality**: Acts as a serverless function hosted on Vercel. It receives user queries, constructs system prompts specific to Blender's API constraints, and securely communicates with inference endpoints to generate code or debugging steps.
 
-## Installation and Local Development
-
-To run the application locally, follow these steps:
-
-1. Clone the repository.
-2. Navigate to the `backend` directory and install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Create a `.env` file in the `backend` directory and configure your environment variables:
-   ```env
-   NVIDIA_API_KEY="your_api_key_here"
-   FLASK_DEBUG=1
-   ```
-4. Start the backend server:
-   ```bash
-   python app.py
-   ```
-5. Open `frontend/index.html` in your web browser. Ensure that `env.js` is configured to point to `http://localhost:5000` for local development.
-
 ## Deployment
 
 The application is configured for immediate deployment via Vercel. The `vercel.json` file is set up to route API requests to the Flask backend while serving the static frontend assets. 
