@@ -24,14 +24,6 @@ The system is divided into two primary components:
 - **Technology Stack**: Python, Flask, and the NVIDIA API.
 - **Functionality**: Acts as a serverless function hosted on Vercel. It receives user queries, constructs system prompts specific to Blender's API constraints, and securely communicates with inference endpoints to generate code or debugging steps.
 
-## Deployment
-
-The application is configured for immediate deployment via Vercel. The `vercel.json` file is set up to route API requests to the Flask backend while serving the static frontend assets. 
-
-1. Connect the repository to your Vercel account.
-2. Add the required environment variables (e.g., `NVIDIA_API_KEY`) in the Vercel project settings.
-3. Deploy the project. The configuration will automatically build the Python environment and serve the application.
-
 ## License
 
 This project is intended for educational and developmental purposes.
