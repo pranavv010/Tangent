@@ -2,7 +2,7 @@
 
 Tangent AI is a comprehensive procedural material suite designed specifically for Blender. It leverages large language models to bridge the gap between natural language descriptions and complex procedural material generation in 3D environments.
 
-##UI
+## UI
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b3fa9229-a8a1-4ef4-bbff-db4adb460320" />
 
 ## Overview
